@@ -2,5 +2,6 @@ from apollo import views
 from django.urls import path
 
 urlpatterns = [
-    path('index/', views.index),
+    path('index/', views.index), # 配置访问首页的路径
+    path("login/",views.login) # 配置访问登陆的路径
 ]
