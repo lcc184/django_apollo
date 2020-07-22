@@ -6,3 +6,6 @@ def index(request):
 
 def login(request):
     return HttpResponse("login")
+
+def safe_a(request):
+    return HttpResponse("实现了A等级的安全级别")
